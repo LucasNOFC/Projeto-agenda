@@ -26,5 +26,7 @@ route.post('/register/createAccount', registerController.register);
 // Rotas de contato
 
 route.get('/contato/index', checkLogin, contatoController.index);
+route.post('/contato/register', checkLogin, contatoController.register);
+route.get('/contato/index/:id',checkLogin, contatoController.editIndex)
 
 module.exports = route;

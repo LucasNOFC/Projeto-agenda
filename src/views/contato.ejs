@@ -16,22 +16,22 @@
         
         <div class="mb-3">
           <label for="exampleInputNome1" class="form-label">Nome</label>
-          <input type="text" name="nome" class="form-control" id="exampleInputnome1" aria-describedby="emailHelp">
+          <input value="<%= contato.nome %>" type="text" name="nome" class="form-control" id="exampleInputnome1" aria-describedby="emailHelp">
         </div>
 
         <div class="mb-3">
           <label for="exampleInputSobrenome1" class="form-label">Sobrenome</label>
-          <input type="text" name="sobrenome" class="form-control" id="exampleInputsobrenome1" aria-describedby="emailHelp">
+          <input value="<%= contato.sobrenome %>" type="text" name="sobrenome" class="form-control" id="exampleInputsobrenome1" aria-describedby="emailHelp">
         </div>
 
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email</label>
-          <input type="email" name="email" class="form-control" id="exampleInputemail1" aria-describedby="emailHelp">
+          <input value="<%= contato.email %>" type="email" name="email" class="form-control" id="exampleInputemail1" aria-describedby="emailHelp">
         </div>
 
         <div class="mb-3">
           <label for="exampleInputTelefone1" class="form-label">Telefone</label>
-          <input type="tel" name="telefone" class="form-control" id="exampleInputtelefone1" aria-describedby="emailHelp">
+          <input value="<%= contato.telefone %>" type="tel" name="telefone" class="form-control" id="exampleInputtelefone1" aria-describedby="emailHelp">
         </div>
 
         <button type="submit" class="btn btn-primary">Salvar</button>
